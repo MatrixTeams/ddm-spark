@@ -60,17 +60,19 @@ object DDMSpark extends App {
     // Spark Tutorial
     //------------------------------------------------------------------------------------------------------------------
 
-    Tutorial.execute(spark)
+    //Tutorial.execute(spark)
 
     //------------------------------------------------------------------------------------------------------------------
     // Longest Common Substring Search
     //------------------------------------------------------------------------------------------------------------------
 
-    time {LongestCommonSubstring.discoverLCSs("students2", spark)}
+    //time {LongestCommonSubstring.discoverLCSs("students2", spark)}
 
     //------------------------------------------------------------------------------------------------------------------
     // Inclusion Dependency Discovery (Homework)
     //------------------------------------------------------------------------------------------------------------------
+
+
 
     def getFiles(dir: String): List[String] = {
       val d = new File(dir)
